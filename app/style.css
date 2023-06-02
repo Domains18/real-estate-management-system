@@ -594,7 +594,23 @@ header .icons #menu-bars{
     margin-bottom: 4rem;
 }
 
-
+@media (max-width:1279px) {
+    header .navbar a{
+        display: inline-flex;
+        padding:1.rem;
+        margin:0.5rem;
+        background:var(--light-aqua);
+        border:.1rem solid aqua;
+        box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+        border-radius: 2rem;
+        position: relative;
+        left: 25px;
+    }
+    header .logo {
+        position: relative;
+        right: 25px;
+    }
+}
 
 @media (max-width:991px){
 
@@ -609,6 +625,8 @@ header .icons #menu-bars{
     section{
         padding:1.5rem;
     }
+    
+    
 
     
 
